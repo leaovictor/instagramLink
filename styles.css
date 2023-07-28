@@ -12,7 +12,7 @@
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
-  --highlight-color: rgba(0, 0, 0, 0.2);
+  --highlight-color: rgba(217, 217, 217, 0.2);
   --switch-bg-url: url(./assets/MoonStars.svg);
 }
 
@@ -125,7 +125,7 @@ ul li a {
 /* pseudo seletor  */
 ul li a:hover {
     background: rgba(255, 255, 255, 0.05);
-    border: 1.5px solid var(--stroke-color);
+    border: 1.5px solid var(--surface-color-hover);
 }
 
 /* Social links  */
@@ -147,7 +147,7 @@ ul li a:hover {
 }
 
 #social-links a:hover {
-  background: var(--highlight-color);
+  background: var(--surface-color);
   border-radius: 50%;
 }
 
