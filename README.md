@@ -23,7 +23,7 @@
 <h2>Visualização</h2>
 
 <p align="center">
-  <img src="preview.png" alt="InstagramLink Preview">
+  <img src="./assets/Famosinho.png" alt="InstagramLink Preview">
 </p>
 
 <h2>Uso</h2>
