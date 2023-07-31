@@ -1,29 +1,29 @@
-<h1 align="center">DevLinks - Leia-me</h1>
+<h1 align="center">InstagramLink - Leia-me</h1>
 
 <p align="center">
-  <img src="logo.png" alt="DevLinks Logo">
+  <img src="logo.png" alt="InstagramLink Logo">
 </p>
 
 <h2>Visão Geral</h2>
 
 <p>
-  Bem-vindo ao repositório do DevLinks! Este projeto tem como objetivo criar um site amigável e personalizável que funcione como um "Linktree para desenvolvedores", permitindo que os usuários exibam seus diversos perfis e links relevantes em um só lugar. Se você é um desenvolvedor, programador, ou simplesmente deseja compartilhar suas presenças online de forma eficiente, o DevLinks é perfeito para você.
+  Bem-vindo ao repositório do InstagramLink! Este projeto tem como objetivo criar um site amigável e personalizável que funcione como um "Linktree para o Instagram", permitindo que os usuários exibam seus diversos perfis e links relevantes em um só lugar. Se você é um influenciador, criador de conteúdo ou apenas deseja compartilhar suas presenças online de forma eficiente, o InstagramLink é perfeito para você.
 </p>
 
 <h2>Recursos</h2>
 
 <ul>
-  <li><strong>Personalização Fácil:</strong> Personalize sua página do DevLinks com sua própria foto de perfil, plano de fundo e esquema de cores para representar seu estilo único.</li>
-  <li><strong>Links Relevantes:</strong> Adicione links para seu portfólio, GitHub, LinkedIn, blog e outros projetos importantes, facilitando para as pessoas encontrarem suas atividades online.</li>
-  <li><strong>Contato e Redes Sociais:</strong> Inclua seu e-mail de contato, perfis de mídia social e outras formas de contato para que interessados possam entrar em contato facilmente.</li>
+  <li><strong>Personalização Fácil:</strong> Personalize sua página do InstagramLink com sua própria foto de perfil, plano de fundo e esquema de cores para representar seu estilo único.</li>
+  <li><strong>Links Relevantes:</strong> Adicione links para seus perfis nas redes sociais, canal do YouTube, blog e outros links importantes, facilitando para os seguidores encontrarem seus conteúdos online.</li>
+  <li><strong>Contato e Mensagens:</strong> Inclua opções para que seus seguidores possam entrar em contato com você e enviar mensagens diretamente pelo InstagramLink.</li>
   <li><strong>Design Responsivo:</strong> O site é otimizado para funcionar perfeitamente em dispositivos desktop e móveis, garantindo uma experiência consistente para seus visitantes.</li>
-  <li><strong>Rastreamento de Análises:</strong> Monitore o desempenho de sua página DevLinks com suporte integrado para análises, obtendo insights sobre o número de cliques e visitas.</li>
+  <li><strong>Estatísticas de Cliques:</strong> Monitore o desempenho de sua página InstagramLink com suporte integrado para rastrear os cliques em seus links.</li>
 </ul>
 
 <h2>Visualização</h2>
 
 <p align="center">
-  <img src="preview.png" alt="DevLinks Preview">
+  <img src="preview.png" alt="InstagramLink Preview">
 </p>
 
 <h2>Uso</h2>
@@ -33,13 +33,13 @@
   <li>Clone o repositório forkado para sua máquina local:</li>
 </ol>
 
-<pre><code>git clone https://github.com/seu-nome-de-usuario/devlinks.git</code></pre>
+<pre><code>git clone https://github.com/seu-nome-de-usuario/instagramlink.git</code></pre>
 
 <ol start="3">
   <li>Navegue até o diretório do projeto:</li>
 </ol>
 
-<pre><code>cd devlinks</code></pre>
+<pre><code>cd instagramlink</code></pre>
 
 <ol start="4">
   <li>Personalize o site:</li>
@@ -47,7 +47,7 @@
 
 <ul>
   <li>Substitua <code>logo.png</code> e <code>preview.png</code> pelas suas próprias imagens.</li>
-  <li>Edite <code>index.html</code> para adicionar seus links relevantes, informações de contato e redes sociais.</li>
+  <li>Edite <code>index.html</code> para adicionar seus links relevantes, informações de contato e mensagens.</li>
   <li>Modifique o CSS em <code>styles.css</code> para alterar a aparência e as cores de sua página.</li>
 </ul>
 
@@ -56,7 +56,7 @@
 </ol>
 
 <pre><code>git add .
-git commit -m "Personalizei o DevLinks"
+git commit -m "Personalizei o InstagramLink"
 git push origin master</code></pre>
 
 <ol start="6">
@@ -67,7 +67,7 @@ git push origin master</code></pre>
   <li>Vá para a aba <strong>Configurações</strong> do seu repositório no GitHub.</li>
   <li>Role para baixo até a seção <strong>GitHub Pages</strong>.</li>
   <li>Escolha o branch <strong>master</strong> como a origem para as GitHub Pages.</li>
-  <li>Clique em <strong>Salvar</strong> para gerar o link para sua página DevLinks ao vivo.</li>
+  <li>Clique em <strong>Salvar</strong> para gerar o link para sua página InstagramLink ao vivo.</li>
 </ul>
 
 <h2>Contribuições</h2>
@@ -97,5 +97,5 @@ git push origin master</code></pre>
 </p>
 
 <p>
-  Vamos tornar o compartilhamento de links para desenvolvedores mais conveniente e estiloso juntos! Feliz codificação! 😊
+  Vamos tornar o compartilhamento de links para o Instagram mais conveniente e estiloso juntos! Feliz codificação! 😊
 </p>
