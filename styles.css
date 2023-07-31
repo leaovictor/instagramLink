@@ -28,15 +28,18 @@
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 body * {
   font-family: "Poppins", sans-serif;
   color: var(--text-color);
+  
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
 }
 
@@ -78,11 +81,16 @@ body * {
   right: 0;
   z-index: 1;
   transform: translateY(-50%);
+
+  animation: slide-in 0.2s;
+}
+
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
 }
 
 .light #switch button {
-  left: 0;
-  right: initial;
+  animation: slide-back 0.4s forwards;
 
 }
 
@@ -103,6 +111,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  padding: 0 20px;
 }
 
 ul li a {
@@ -154,4 +163,37 @@ ul li a:hover {
 footer {
   padding: 24px 0;
   text-align: center;
+}
+
+
+@media (min-width: 700px) {
+
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+  
+}
+
+
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-back {
+  from {
+    left: 50%
+  }
+  to {
+    left: 0;
+  }
+
 }
