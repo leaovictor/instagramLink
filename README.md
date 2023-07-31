@@ -1,7 +1,7 @@
 <h1 align="center">InstagramLink - Leia-me</h1>
 
 <p align="center">
-  <img src="logo.png" alt="InstagramLink Logo">
+  <img src="./assets/figma.png" alt="InstagramLink Preview">
 </p>
 
 <h2>Visão Geral</h2>
@@ -23,7 +23,7 @@
 <h2>Visualização</h2>
 
 <p align="center">
-  <img src="./assets/Famosinho.png" alt="InstagramLink Preview">
+  <img src="./assets/Famosinho.png" alt="InstagramLink Banner">
 </p>
 
 <h2>Uso</h2>
